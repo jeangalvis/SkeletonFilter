@@ -1,33 +1,26 @@
 webapi
 
 - AspNetCoreRateLimit
-
 - AutoMapper.Extensions.Microsoft.DependencyInjection
-
 - Microsoft.AspNetCore.Authentication.JwtBearer
-
 - Microsoft.AspNetCore.Mvc.Versioning
-
 - Microsoft.AspNetCore.OpenApi
-
 - Microsoft.EntityFrameworkCore.Design
 
 
 Domain
 
 - FluentValidation.AspNetCore
-
 - itext7.pdfhtml" Version
-
 - Microsoft.EntityFrameworkCore
 
 
 Persistence
 
 - Microsoft.EntityFrameworkCore
-
 - Pomelo.EntityFrameworkCore.MySql
 
+creacion sln
 
 - dotnet new sln
 - dotnet new classlib -o Domain
@@ -51,3 +44,12 @@ Persistence
 - cd ..
 
 
+tool
+
+- dotnet tool list -g
+- dotnet tool install --global dotnet-ef
+
+Migraciones
+
+- dotnet ef add FirstMig --project .\Persistence\ --startup-project .\API\ --output-dir ./Data/Migrations
+- dotnet ef update --project .\Persistence --startup-project .\API\
