@@ -1,22 +1,33 @@
 webapi
 
 AspNetCoreRateLimit
+
 AutoMapper.Extensions.Microsoft.DependencyInjection
+
 Microsoft.AspNetCore.Authentication.JwtBearer
+
 Microsoft.AspNetCore.Mvc.Versioning
+
 Microsoft.AspNetCore.OpenApi
+
 Microsoft.EntityFrameworkCore.Design
+
 
 Domain
 
 FluentValidation.AspNetCore
+
 itext7.pdfhtml" Version
+
 Microsoft.EntityFrameworkCore
+
 
 Persistence
 
 Microsoft.EntityFrameworkCore
+
 Pomelo.EntityFrameworkCore.MySql
+
 
 dotnet new sln
 dotnet new classlib -o Domain
