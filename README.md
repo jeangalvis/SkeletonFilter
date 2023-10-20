@@ -1,32 +1,32 @@
 webapi
 
-AspNetCoreRateLimit
+- AspNetCoreRateLimit
 
-AutoMapper.Extensions.Microsoft.DependencyInjection
+- AutoMapper.Extensions.Microsoft.DependencyInjection
 
-Microsoft.AspNetCore.Authentication.JwtBearer
+- Microsoft.AspNetCore.Authentication.JwtBearer
 
-Microsoft.AspNetCore.Mvc.Versioning
+- Microsoft.AspNetCore.Mvc.Versioning
 
-Microsoft.AspNetCore.OpenApi
+- Microsoft.AspNetCore.OpenApi
 
-Microsoft.EntityFrameworkCore.Design
+- Microsoft.EntityFrameworkCore.Design
 
 
 Domain
 
-FluentValidation.AspNetCore
+- FluentValidation.AspNetCore
 
-itext7.pdfhtml" Version
+- itext7.pdfhtml" Version
 
-Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore
 
 
 Persistence
 
-Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore
 
-Pomelo.EntityFrameworkCore.MySql
+- Pomelo.EntityFrameworkCore.MySql
 
 
 dotnet new sln
